@@ -2,6 +2,16 @@
 
 Newest first. Downloads: https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/latest · https://ipconfig.co.network/twig
 
+## Twig 1.0.2 — 08 Oct 2026
+
+- **Fixed:** with the AI panel open, the commit box (message, Write message / Describe / Explain, Amend, Sign-off) spilled out of its column into the diff — it now stays inside and wraps. On narrow windows the sidebar steps aside while the AI panel is open.
+- **Fixed:** "Explain" in the commit box with nothing staged sent an empty question, so the AI asked what to explain — it now explains unstaged or new files, or says the tree is clean.
+- **Six sound packs:** Soft, Crisp, Retro 8-bit, Glass, Wood and Space (Settings → Sound pack), plus new sounds for streaks, a clean tree, branch switches and tags.
+- **Commit streaks:** your 1st, 3rd, 5th, 10th, 20th and 50th commit of the day get a toast, a fanfare and confetti.
+- **A sapling grows** when the working tree is clean; files you stage or unstage glow as they land in their new list.
+- **Branch switch sweep:** a gold line and a branch chip sweep under the title bar when the branch changes.
+- **Living graph:** the current commit pulses in the history graph; AI answers glow when they finish; Pro activation rains confetti.
+
 ## Twig 1.0.1 — 08 Oct 2026
 
 **Twig is now an AI Git client — and the AI is free for everyone.**
