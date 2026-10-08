@@ -12,19 +12,35 @@
       "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.1/Twig_x64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SHhtaEhFS1dnRkpRS2JXeklndVpzV3gvaExLd280YXdOb08wd3RQcmZmV2xDR1hLL2t1TnRRRGsyeWVnSWlCa3ZWSzQ1Ni9mZGIwL0VaTmhMeDd5Z1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDUzNjEzCWZpbGU6VHdpZ18xLjAuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4wLjAKc0FTVWVxMnNxbjZ4ZTBHUm0rZnlxMFMrSCsrdHVjZUhlK0R0cU5hNU1sbXVEMDJOWUVURDF1TjF0TG56UFhTbytvZWdKbmhjbUZ3US92OVNCUHkzQVE9PQo=",
-      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.0/Twig_1.0.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SDlMUVVwMXN4MytwbHp4eVRkcmtMQzE5Q0lYY3g3MnlNQjRhcTlJUVQzZGRhbkE2dDA0OGZ5eWlQNHk5NURPMzF2b20rS0hWMG8zcVNXaWRnUHNrUXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDYyMzA5CWZpbGU6VHdpZ18xLjAuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4wLjEKbnJjT0NWUnJuRmdxL1VISFRObStRVXVaeUJ5U1FrNXBhRFRJdVV5RUV2VkhuM3VYaExmZzBRc0VkeXdybnR5Q3E2bWQ2TjA4MitIRkhtVnZGbDd3QVE9PQo=",
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.1/Twig_1.0.1_x64-setup.exe"
+    },
+    "windows-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SDFZZnBKZFYzUTNXbGRUVWpLVjcxMTZpQjhmZVdsMUNYb3JzWm1zSGErOERPMWRoV0thZWQreWkzbEFrWHZDSFZNV0h0dndES01ySDYwZCs2QjA4VFFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDYyNDczCWZpbGU6VHdpZ18xLjAuMV9hcm02NC1zZXR1cC5leGUJdmVyc2lvbjoxLjAuMQpLR09zNDhodDd3YnRzQVhNSkFoTC9FeHExYlZXRFc2aVR0NUFGV3R5RTJiVkdWZzYxVDlXQmhDbUdvL2pYdm56a3FmT3hNRWdHNWI0S2Q0RWdJanJCUT09Cg==",
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.1/Twig_1.0.1_arm64-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SDhZTGtsb1lVLzkvZ2hxOHoxVWdyenNzV3Fpdko3NkxHRUdxemhKV3dKdVZyUWEwQk9FaVFWQjVJZ1NkSng2bzk5MmhCSHFScy9FU3dkZDJZNmxMdUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDU0MTE5CWZpbGU6VHdpZ18xLjAuMF9hbWQ2NC5BcHBJbWFnZQl2ZXJzaW9uOjEuMC4wCnNidFMvRFBoclFVWDFRaCtLa00yNnUvTjlEaXdJc0F5QllOUzAwZ3RTK0JndGh2VEMyWlRyT1JPMkgyOWFyL054Uzk2UHBMZzV0U0F1R1M5TVI0U0J3PT0K",
-      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.0/Twig_1.0.0_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SC96NzVjM3MzaFVkSW0xK1ZWV0NSMDFBZjRqK05FMlJCaWdHWlkwckxxZC9zRVdnS1RZejROeUNJdGlSQ0YvaTlYS2pVMWt2QzVQd1oxVDFPREl5RlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDYyMzQ5CWZpbGU6VHdpZ18xLjAuMV9hbWQ2NC5BcHBJbWFnZQl2ZXJzaW9uOjEuMC4xCitTZk1sa28yNzZzUmU1SUZIbzdWc2JCSFh0ZEdGSkFRZHIxQm5QbE15ZEszRXNhOTBOQmJjaXpadS9NNDRjK29DWDlHZ0QydDF2YnlReHovOVVFYkFnPT0K",
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.1/Twig_1.0.1_amd64.AppImage"
+    },
+    "linux-x86_64-deb": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SHhhempobzgrcDJrRERxbkhHUmpwOHkrRTRVSGN1MjlraHQ0c0VQSEo5VS9ZdkY2WnA2enJNbE9OME8zNmZncnl2dGNzSXRPK1BYeExXU0g2dXVwL3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDYyMzQ5CWZpbGU6VHdpZ18xLjAuMV9hbWQ2NC5kZWIJdmVyc2lvbjoxLjAuMQpUQVVjNlRQdGtEQlF3Q0V1VTBkbnoyUS80aGJyMkUzd2Zua0poeEFNZUhOOTFNSXFVeWFzVXNzSzZCaUVIaFlZVkNqbHQrT0FSY0tWMnpaU2tKOEJDUT09Cg==",
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.1/Twig_1.0.1_amd64.deb"
+    },
+    "linux-aarch64-deb": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SC95VFJ3VjBSWllSemUxamEza3hzOG45NldQWFRIZXE4bUxGMGdXSlRCd1BIM3dlUlFOMDVDRXVGQjJyRGMvd1FlTjVWRHArMnRPam02KzVxRzU5MUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDYyMjA1CWZpbGU6VHdpZ18xLjAuMV9hcm02NC5kZWIJdmVyc2lvbjoxLjAuMQptOWFFbFR4b21yYUpTZlBBWkI4cGVXdFZUNzVyZTRIYkkyaHZRYi9xaUkxSVZsWkRhS3JQdk5ZNzQ5Z2dYZ0ZzS1Nxa2p4RG9QWmMrbDFMemtJY0pCdz09Cg==",
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.1/Twig_1.0.1_arm64.deb"
     }
   },
   "downloads": {
     "mac_arm": "Twig_1.0.1_aarch64.dmg",
     "mac_intel": "Twig_1.0.1_x64.dmg",
-    "windows": "Twig_1.0.0_x64-setup.exe",
-    "appimage": "Twig_1.0.0_amd64.AppImage",
-    "deb": "Twig_1.0.0_amd64.deb"
+    "windows": "Twig_1.0.1_x64-setup.exe",
+    "windows_arm": "Twig_1.0.1_arm64-setup.exe",
+    "appimage": "Twig_1.0.1_amd64.AppImage",
+    "deb": "Twig_1.0.1_amd64.deb",
+    "deb_arm": "Twig_1.0.1_arm64.deb",
+    "chromeos": "Twig_1.0.1_amd64.deb",
+    "chromeos_arm": "Twig_1.0.1_arm64.deb"
   }
 }
