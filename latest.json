@@ -10,10 +10,21 @@
     "darwin-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SHpVbFM4Ulo1WXNCeC9jYlhEWWYraVBGaXd3SEV0dTBNZHAzTFh5ZWRjWEl2a1IrVTJHdjU5eGpOS2hVOS9wUThzR3hrTzdSQ2owZmVvUlFvT2J6N2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDUyOTQ2CWZpbGU6VHdpZy5hcHAudGFyLmd6CXZlcnNpb246MS4wLjAKODBoWEkxSG5iOTJQTkRZUXNWdUxVZDUyZit0bUVMak0xSjBxTFpVdzdMN1dtWXUwRHhuMElmOUhLS3lXZG4xRHp4UXpCOG1FSFYyQUFQNGhUMnN3RGc9PQo=",
       "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.0/Twig_x64.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SHhtaEhFS1dnRkpRS2JXeklndVpzV3gvaExLd280YXdOb08wd3RQcmZmV2xDR1hLL2t1TnRRRGsyeWVnSWlCa3ZWSzQ1Ni9mZGIwL0VaTmhMeDd5Z1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDUzNjEzCWZpbGU6VHdpZ18xLjAuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4wLjAKc0FTVWVxMnNxbjZ4ZTBHUm0rZnlxMFMrSCsrdHVjZUhlK0R0cU5hNU1sbXVEMDJOWUVURDF1TjF0TG56UFhTbytvZWdKbmhjbUZ3US92OVNCUHkzQVE9PQo=",
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.0/Twig_1.0.0_x64-setup.exe"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SDhZTGtsb1lVLzkvZ2hxOHoxVWdyenNzV3Fpdko3NkxHRUdxemhKV3dKdVZyUWEwQk9FaVFWQjVJZ1NkSng2bzk5MmhCSHFScy9FU3dkZDJZNmxMdUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDU0MTE5CWZpbGU6VHdpZ18xLjAuMF9hbWQ2NC5BcHBJbWFnZQl2ZXJzaW9uOjEuMC4wCnNidFMvRFBoclFVWDFRaCtLa00yNnUvTjlEaXdJc0F5QllOUzAwZ3RTK0JndGh2VEMyWlRyT1JPMkgyOWFyL054Uzk2UHBMZzV0U0F1R1M5TVI0U0J3PT0K",
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.0/Twig_1.0.0_amd64.AppImage"
     }
   },
   "downloads": {
     "mac_arm": "Twig_1.0.0_aarch64.dmg",
-    "mac_intel": "Twig_1.0.0_x64.dmg"
+    "mac_intel": "Twig_1.0.0_x64.dmg",
+    "windows": "Twig_1.0.0_x64-setup.exe",
+    "appimage": "Twig_1.0.0_amd64.AppImage",
+    "deb": "Twig_1.0.0_amd64.deb"
   }
 }
