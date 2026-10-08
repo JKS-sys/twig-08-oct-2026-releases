@@ -2,6 +2,28 @@
 
 Newest first. Downloads: https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/latest · https://ipconfig.co.network/twig
 
+## Twig 1.0.1 — 08 Oct 2026
+
+**Twig is now an AI Git client — and the AI is free for everyone.**
+
+- **Twig AI, built in:** works the moment Twig opens — no account, no key, nothing to install (a fair daily allowance per computer).
+- **GitHub Copilot and GitHub Models:** use the Copilot CLI with your Copilot subscription, or GitHub Models with your GitHub sign-in (`gh`) or a token.
+- **Every local AI connects by itself:** Ollama, LM Studio, llama.cpp, llamafile, Jan, GPT4All, LocalAI, vLLM, KoboldCpp, text-generation-webui, Msty and AnythingLLM are found on this computer; Twig can start Ollama and download models into it with a progress bar.
+- **Any AI on the internet:** OpenAI, Gemini, OpenRouter, Groq, Mistral, DeepSeek, Together, Fireworks, xAI, Cerebras, Perplexity — or any OpenAI-compatible URL with your key.
+- **Write message / Describe:** the commit box writes the summary and description from your changes, streamed in as it thinks.
+- **AI chat box** (⌘J) that knows your branch, changes and recent commits; every `git` command in an answer has a **Run** button, and risky ones ask twice.
+- **Suggestion box:** instant offline suggestions (commit, pull, push, publish, resolve) plus AI suggestions for the next steps, each one click to run.
+- **Explain everything:** a “?” beside Amend, Sign-off, Reset, Rebase and more, a searchable glossary of 33 Git words, “Explain this commit”, “Explain these changes”, “Help me resolve this conflict” and pull-request descriptions for any branch.
+- **Startup show:** the twig draws itself, leaves unfurl, sparks fly and “An AI Git client” types out — with its own sound (Settings → Startup to turn it off).
+- **More motion and sound:** drifting leaves on the welcome screen, click ripples, a circular theme switch, a glowing AI button, typing dots, and new sounds for AI, running commands and startup.
+
+- **Windows on Arm**: a native ARM64 installer (`Twig_<version>_arm64-setup.exe`); the PowerShell installer picks it automatically, and it updates itself.
+- **Linux ARM64**: a `.deb` for 64-bit ARM (Raspberry Pi OS 64-bit, ARM laptops and servers, ARM Chromebooks) that updates itself; the one-line installer picks it on ARM.
+- **Linux .deb installs now update themselves** (x86_64 and ARM64), not only the AppImage.
+- **ChromeOS**: install guide for the Linux development environment, on Intel/AMD and ARM Chromebooks; the one-line installer detects ChromeOS.
+- **FreeBSD**: an amd64 tarball (`Twig_<version>_freebsd_amd64.tar.gz`) with an `install.sh` for `/usr/local`; the one-line installer works on FreeBSD too. FreeBSD builds do not update themselves — rerun the installer.
+- Haiku isn't supported: Twig's window engine (Tauri/WebKit) has no Haiku port.
+
 ## Twig 1.0.0 — 08 Oct 2026
 
 The first release of Twig — a tiny, fast Git client for macOS, Windows and Linux (08 Oct 2026).
