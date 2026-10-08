@@ -11,7 +11,7 @@
 <p align="center"><b>Twig — AI Git client for macOS, Windows, Linux, ChromeOS and FreeBSD</b></p>
 
 <p align="center">
-  Version <b>1.0.1</b> · released 08 Oct 2026 ·
+  Version <b>1.0.2</b> · released 08 Oct 2026 ·
   <a href="https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/latest">Download</a> ·
   <a href="https://ipconfig.co.network/twig">Website</a> ·
   <a href="RELEASE-NOTES.md">Release notes</a>
@@ -88,15 +88,15 @@ irm https://ipconfig.co.network/updates/twig/install.ps1 | iex
 SmartScreen may warn on first launch: *More info → Run anyway*.
 
 The same command installs the **ARM64** build on Windows on Arm (Snapdragon / Surface Pro X and similar) —
-or download `Twig_1.0.1_arm64-setup.exe` from the [latest release](https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/latest).
+or download `Twig_1.0.2_arm64-setup.exe` from the [latest release](https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/latest).
 
 **Linux** (x86_64)
 
 - AppImage: `curl -fsSL https://ipconfig.co.network/updates/twig/install.sh | bash` — installs to `~/.local/bin/twig`.
-  Or download `Twig_1.0.1_amd64.AppImage` from the [latest release](https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/latest),
+  Or download `Twig_1.0.2_amd64.AppImage` from the [latest release](https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/latest),
   then `chmod +x Twig_*.AppImage && ./Twig_*.AppImage` (needs `libfuse2`).
 - Debian / Ubuntu: `curl -fsSL https://ipconfig.co.network/updates/twig/install.sh | bash -s -- --deb`,
-  or download `Twig_1.0.1_amd64.deb` and `sudo apt install ./Twig_1.0.1_amd64.deb`.
+  or download `Twig_1.0.2_amd64.deb` and `sudo apt install ./Twig_1.0.2_amd64.deb`.
 
 **Linux ARM64** (Raspberry Pi 4/5 with a 64-bit OS, ARM laptops and servers) — Debian / Ubuntu:
 
@@ -104,7 +104,7 @@ or download `Twig_1.0.1_arm64-setup.exe` from the [latest release](https://githu
 curl -fsSL https://ipconfig.co.network/updates/twig/install.sh | bash
 ```
 
-or download `Twig_1.0.1_arm64.deb` and `sudo apt install ./Twig_1.0.1_arm64.deb`.
+or download `Twig_1.0.2_arm64.deb` and `sudo apt install ./Twig_1.0.2_arm64.deb`.
 ARM64 Linux has a .deb only — there is no ARM AppImage.
 
 **ChromeOS** — Twig runs in the Linux development environment (a Debian container), on Intel/AMD and ARM Chromebooks:
@@ -115,8 +115,8 @@ ARM64 Linux has a .deb only — there is no ARM AppImage.
    curl -fsSL https://ipconfig.co.network/updates/twig/install.sh | bash
    ```
    Or by hand: `dpkg --print-architecture` says `amd64` (Intel/AMD) or `arm64` (ARM). Download
-   `Twig_1.0.1_amd64.deb` or `Twig_1.0.1_arm64.deb`, move it to **Linux files**, then double-click it —
-   or run `sudo apt install ./Twig_1.0.1_<arch>.deb`.
+   `Twig_1.0.2_amd64.deb` or `Twig_1.0.2_arm64.deb`, move it to **Linux files**, then double-click it —
+   or run `sudo apt install ./Twig_1.0.2_<arch>.deb`.
 3. Install Git in the container: `sudo apt install git`.
 4. Open Twig from the launcher (**Linux apps**). Your repositories live in **Linux files**; share other
    folders with Linux from the Files app (right-click → *Share with Linux*).
@@ -128,8 +128,8 @@ pkg install webkit2-gtk_41 git bash curl
 curl -fsSL https://ipconfig.co.network/updates/twig/install.sh | bash
 ```
 
-Or download `Twig_1.0.1_freebsd_amd64.tar.gz` and, in the download folder,
-`tar -xzf Twig_1.0.1_freebsd_amd64.tar.gz && sudo sh install.sh` — it installs to `/usr/local/bin/twig`
+Or download `Twig_1.0.2_freebsd_amd64.tar.gz` and, in the download folder,
+`tar -xzf Twig_1.0.2_freebsd_amd64.tar.gz && sudo sh install.sh` — it installs to `/usr/local/bin/twig`
 with a menu entry and icon (`sh install.sh --uninstall` removes them).
 
 **Haiku** — Haiku isn't supported: Twig's window engine (Tauri/WebKit) has no Haiku port.
@@ -144,14 +144,14 @@ On FreeBSD, run the installer again to update.
 
 | System | CPU | Download | Updates itself |
 |---|---|---|---|
-| macOS 10.15+ | Apple silicon | `Twig_1.0.1_aarch64.dmg` | yes |
-| macOS 10.15+ | Intel | `Twig_1.0.1_x64.dmg` | yes |
-| Windows 10 / 11 | x64 | `Twig_1.0.1_x64-setup.exe` | yes |
-| Windows 11 | ARM64 | `Twig_1.0.1_arm64-setup.exe` | yes |
-| Linux | x86_64 | `Twig_1.0.1_amd64.AppImage` · `Twig_1.0.1_amd64.deb` | yes |
-| Linux | ARM64 | `Twig_1.0.1_arm64.deb` | yes |
+| macOS 10.15+ | Apple silicon | `Twig_1.0.2_aarch64.dmg` | yes |
+| macOS 10.15+ | Intel | `Twig_1.0.2_x64.dmg` | yes |
+| Windows 10 / 11 | x64 | `Twig_1.0.2_x64-setup.exe` | yes |
+| Windows 11 | ARM64 | `Twig_1.0.2_arm64-setup.exe` | yes |
+| Linux | x86_64 | `Twig_1.0.2_amd64.AppImage` · `Twig_1.0.2_amd64.deb` | yes |
+| Linux | ARM64 | `Twig_1.0.2_arm64.deb` | yes |
 | ChromeOS (Linux development environment) | x86_64 / ARM64 | the Linux `.deb` for the Chromebook's CPU | yes |
-| FreeBSD 14+ | amd64 | `Twig_1.0.1_freebsd_amd64.tar.gz` | no — rerun the installer |
+| FreeBSD 14+ | amd64 | `Twig_1.0.2_freebsd_amd64.tar.gz` | no — rerun the installer |
 | Haiku | — | not available | — |
 
 Haiku isn't supported: Twig's window engine (Tauri/WebKit) has no Haiku port.
