@@ -17,6 +17,8 @@
   <a href="RELEASE-NOTES.md">Release notes</a>
 </p>
 
+<p align="center"><b>If Twig helps you, please ⭐ star this repository — it helps other people find it.</b></p>
+
 <p align="center">
   <img src="icon-512.png" width="96" height="96" alt="Twig icon, dark">&nbsp;&nbsp;
   <img src="icon-512-light.png" width="96" height="96" alt="Twig icon, light">
@@ -258,3 +260,7 @@ Made by Jagadeesh Kumar S, creator — [youtube.com/@JKS-sys](https://www.youtub
 Proprietary. © 2026 Jagadeesh Kumar S. All rights reserved.
 The installers are free to download and use; the source code is not published, and copying,
 modifying or redistributing Twig is not permitted without written permission.
+
+---
+
+<p align="center"><b>If Twig helps you, please ⭐ star this repository — it helps other people find it.</b></p>
