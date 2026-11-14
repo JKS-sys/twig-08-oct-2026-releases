@@ -2,6 +2,15 @@
 
 Newest first. Downloads: https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/latest · https://ipconfig.co.network/twig
 
+## Twig 1.0.4 — 14 Nov 2026
+
+- **Stage, commit & push — one button** (⇧⌘↩, also in the Repository and Dock menus): every change staged, committed and pushed in one click, with its own sound and drawing.
+- **Push when the remote is ahead just works:** instead of `! [rejected] main -> main (non-fast-forward)`, Twig pulls the new commits in (rebase, your unsaved edits kept), then pushes. A real conflict stops with the conflict shown — nothing is lost and nothing is force-pushed. Pull does the same when branches have diverged.
+- **GitHub Copilot CLI works again after moving to Pour:** Twig now finds tools in Pour's folders (and npm's, and your shell's PATH) first, so `copilot`, `gh`, `node` and `ollama` are found exactly as in Terminal.
+- **One account for all my apps:** sign in with an emailed code or a password (ipconfig.co.network). Pro bought on the website turns on here; see and free your computers; redeem gift codes. The licence is checked offline and lasts 14 days without the internet.
+- **Signed with Apple Developer ID and notarised:** Twig opens with no warning — no `xattr` needed — and macOS keeps its permissions across updates. This first signed update asks for them one last time.
+- **Git log:** every line git says, in colour — errors, warnings, done, notes, commands — counted as chips in the status bar with a live activity line, a sound and a drawing per level, filter, find, copy and save.
+
 ## Twig 1.0.3 — 12 Oct 2026
 
 - **Publish to GitHub, GitLab, Bitbucket, Codeberg, Gitea, Forgejo, Azure DevOps, SourceForge or Radicle:** add an account once (a token, or your GitHub CLI sign-in), then create a **public or private** repository and push to it in one step. Pushing a repository that has no remote now offers this instead of an error.
