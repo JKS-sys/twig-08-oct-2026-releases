@@ -1,15 +1,15 @@
 {
-  "version": "1.0.4",
-  "notes": "## Twig 1.0.4 — 14 Nov 2026\n\n- **Stage, commit & push — one button** (⇧⌘↩, also in the Repository and Dock menus): every change staged, committed and pushed in one click, with its own sound and drawing.\n- **Push when the remote is ahead just works:** instead of `! [rejected] main -> main (non-fast-forward)`, Twig pulls the new commits in (rebase, your unsaved edits kept), then pushes. A real conflict stops with the conflict shown — nothing is lost and nothing is force-pushed. Pull does the same when branches have diverged.\n- **GitHub Copilot CLI works again after moving to Pour:** Twig now finds tools in Pour's folders (and npm's, and your shell's PATH) first, so `copilot`, `gh`, `node` and `ollama` are found exactly as in Terminal.\n- **One account for all my apps:** sign in with an emailed code or a password (ipconfig.co.network). Pro bought on the website turns on here; see and free your computers; redeem gift codes. The licence is checked offline and lasts 14 days without the internet.\n- **Signed with Apple Developer ID and notarised:** Twig opens with no warning — no `xattr` needed — and macOS keeps its permissions across updates. This first signed update asks for them one last time.\n- **Git log:** every line git says, in colour — errors, warnings, done, notes, commands — counted as chips in the status bar with a live activity line, a sound and a drawing per level, filter, find, copy and save.\n\n### Install\n\n- **macOS** (Apple silicon and Intel): `curl -fsSL https://ipconfig.co.network/updates/twig/install.sh | bash`\n- **Windows** (PowerShell): `irm https://ipconfig.co.network/updates/twig/install.ps1 | iex`\n- **Linux** (AppImage): `curl -fsSL https://ipconfig.co.network/updates/twig/install.sh | bash` — add `-s -- --deb` for the .deb\n\nFirst launch on macOS after a manual DMG install: `xattr -cr /Applications/Twig.app` (Twig is ad-hoc signed, not notarized).",
-  "pub_date": "2026-11-14T10:34:19Z",
+  "version": "1.0.5",
+  "notes": "## Twig 1.0.5 — 16 Nov 2026\n\n- **Git LFS, automatic:** files of 50 MB and up go into Git LFS by themselves — when you stage or commit them, and before a push for big files already in commits that are not on the remote yet (only those commits are rewritten; your folder keeps the real files). Git LFS is installed with Pour if it is missing.\n\n- **Very large pushes go through:** when the server drops a big push (`RPC failed; HTTP 408`, \"remote end hung up\"), Twig sends it again with a bigger buffer, then one commit at a time. Files over 100 MB, which GitHub never accepts, are named with the Git LFS command to fix them.\n- **Counted once on the dashboard:** Twig tells ipconfig.co.network which computer it is (serial — only a hash is kept — hardware id, model and chip) at every launch, so each Mac is one row however often it opens.\n\n### Install\n\n- **macOS** (Apple silicon and Intel): `curl -fsSL https://ipconfig.co.network/updates/twig/install.sh | bash`\n- **Windows** (PowerShell): `irm https://ipconfig.co.network/updates/twig/install.ps1 | iex`\n- **Linux** (AppImage): `curl -fsSL https://ipconfig.co.network/updates/twig/install.sh | bash` — add `-s -- --deb` for the .deb\n\nFirst launch on macOS after a manual DMG install: `xattr -cr /Applications/Twig.app` (Twig is ad-hoc signed, not notarized).",
+  "pub_date": "2026-11-16T04:40:36Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SDk2OGF4M0pKRW1OaHVEbmtvNXJCQ2V4enZMZ3VJYXhidmdyVW9MN2tZNmVDejkrWjJHblF6ejNTSGpUQTlXWEx3SmRuWGtVcTVVaVB4Tk1mc2RlZ3c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjUyMzE2CWZpbGU6VHdpZy5hcHAudGFyLmd6CXZlcnNpb246MS4wLjQKTDFNdnMwUktnUWVwK2k5YmhEUVBOR2VRNUtjSEprYlFIcXlrcWxjRlozV0xXdy9EcWJkYUNNck80bWk3S2QyQkhxS21JZWNQRWZmQkM2V1lNRndCRGc9PQo=",
-      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.4/Twig_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SDZwQXk3dGI4bHN0SWF1aHhzRzNCWnBPaHN2WTA5TWl0MklEczlHVVUvalZIRk9TdjJOY0ZuTTR1RklnVjdRTDZKK3I5aU9TdkE3MVkwSllOUHphMXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODAzODg4CWZpbGU6VHdpZy5hcHAudGFyLmd6CXZlcnNpb246MS4wLjUKWTc1bDhFaUpyVElJOCtsZ1F0cmRxLzFORVQxRWRRRThma2xmajhEMXBSSHRPeWtkZm9zSW5yTDluWktwY21lNWxnTEdpL1NPMHFHeGd0VzkyYWpuRGc9PQo=",
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.5/Twig_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SDVEUzlKWXlyT0VmZTJJazI2Z1RmQjRnYWZlM2VJRFE5MWhJZEQraGtZTEEycUZZOWdIaVZ4bmtoeFZnaUpsc3c4dnh4T092b3dtNTFaU1g5NVNlYXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjUyNDI5CWZpbGU6VHdpZy5hcHAudGFyLmd6CXZlcnNpb246MS4wLjQKT1g1eXVKQWFBeGphb2szYUhKL09FeGdpV2J6cHdKdzNNd3k4MVFwWllmekRHTGRnd0lEdkdEQWhUeXoraEpqM2FFQkVWNk5sWmh1VWNzSG1vNksyQkE9PQo=",
-      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.4/Twig_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SDNxVmNiWklMTmZlSjFrTTVjdy9VQ3dERnNNTGRsb0Q2YkFVTnhad3drMFp2UTlkb1paVGRLWktDcGgwY0h1Sm56TTFjUjRmeHY2T2pLdEpwMUk0Z3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODA0MDAxCWZpbGU6VHdpZy5hcHAudGFyLmd6CXZlcnNpb246MS4wLjUKamFsRUE0aVNDQklyY0w2Q0xwYmxqbHB1ZmlRRCtYcFB1cmNFSzJLR2d0TlVZaFNlakphbmdGMzY3MlhrY0lQWGNIckNROWRyREJWaktXa3J6ZGFFQlE9PQo=",
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.5/Twig_x64.app.tar.gz"
     },
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SHdBK2l3ZUd4aVE5Qy9KQzd4dWRaL2ljMHZRem5TL2VicEMyb3crMTFvM2czUDh2ekNoNWtka3I1ZTg5cWlEWEhPUXpSWUsrWHd3WE0rdDNLVWlub0FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDY1MTYxCWZpbGU6VHdpZ18xLjAuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4wLjIKZHh1YlNydWJ6MVlpRWdDL2JmOTRzOTM4TlltbTlKRWMyZWltdit2Y3dMQXhGcmhNVXZraFFUaVdqd2lvbUNJWXFBbm1vcmI2amYxZkloSkpkV3JQRFE9PQo=",
@@ -33,8 +33,8 @@
     }
   },
   "downloads": {
-    "mac_arm": "Twig_1.0.4_aarch64.dmg",
-    "mac_intel": "Twig_1.0.4_x64.dmg",
+    "mac_arm": "Twig_1.0.5_aarch64.dmg",
+    "mac_intel": "Twig_1.0.5_x64.dmg",
     "windows": "Twig_1.0.2_x64-setup.exe",
     "windows_arm": "Twig_1.0.2_arm64-setup.exe",
     "appimage": "Twig_1.0.2_amd64.AppImage",
