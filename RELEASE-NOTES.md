@@ -2,6 +2,13 @@
 
 Newest first. Downloads: https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/latest · https://ipconfig.co.network/twig
 
+## Twig 1.0.5 — 16 Nov 2026
+
+- **Git LFS, automatic:** files of 50 MB and up go into Git LFS by themselves — when you stage or commit them, and before a push for big files already in commits that are not on the remote yet (only those commits are rewritten; your folder keeps the real files). Git LFS is installed with Pour if it is missing.
+
+- **Very large pushes go through:** when the server drops a big push (`RPC failed; HTTP 408`, "remote end hung up"), Twig sends it again with a bigger buffer, then one commit at a time. Files over 100 MB, which GitHub never accepts, are named with the Git LFS command to fix them.
+- **Counted once on the dashboard:** Twig tells ipconfig.co.network which computer it is (serial — only a hash is kept — hardware id, model and chip) at every launch, so each Mac is one row however often it opens.
+
 ## Twig 1.0.4 — 14 Nov 2026
 
 - **Stage, commit & push — one button** (⇧⌘↩, also in the Repository and Dock menus): every change staged, committed and pushed in one click, with its own sound and drawing.
